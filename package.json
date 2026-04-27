@@ -1,0 +1,10 @@
+{
+  "name": "spin-wheel",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
