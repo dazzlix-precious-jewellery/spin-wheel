@@ -20,13 +20,42 @@
             <p class="subtitle">Spin the wheel and win exclusive jewelry discounts!</p>
         </header>
 
-        <main>
-            <div class="wheel-container">
-                <div class="pointer"></div>
-                <canvas id="wheel" width="450" height="450"></canvas>
-                <button id="spinBtn" class="spin-btn">
-                    <span>Spin</span>
-                </button>
+        <main class="main-content">
+            <div class="content-left">
+                <div class="wheel-container">
+                    <div class="pointer"></div>
+                    <canvas id="wheel" width="450" height="450"></canvas>
+                    <button id="spinBtn" class="spin-btn">
+                        <span>Spin</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="content-right">
+                <div class="info-section">
+                    <h2 class="info-title">How It Works</h2>
+                    <p class="info-text">Spin the wheel to win exclusive discounts on our premium jewelry collection. Each spin gives you a chance to unlock amazing offers!</p>
+                    
+                    <div class="info-steps">
+                        <div class="step">
+                            <span class="step-number">1</span>
+                            <span class="step-text">Click the Spin button</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">2</span>
+                            <span class="step-text">Wait for the wheel to stop</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">3</span>
+                            <span class="step-text">Claim your reward</span>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="history-section" id="historyContainer">
+                    <h3>Spin History</h3>
+                    <div class="history-list" id="historyList"></div>
+                </section>
             </div>
 
             <div class="result-overlay" id="resultOverlay">
@@ -39,11 +68,6 @@
                     <button class="close-btn" id="closeBtn">Claim Reward</button>
                 </div>
             </div>
-
-            <section class="history-section" id="historyContainer">
-                <h3>Spin history</h3>
-                <div class="history-list" id="historyList"></div>
-            </section>
         </main>
 
         <footer>
